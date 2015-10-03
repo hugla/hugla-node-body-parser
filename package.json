@@ -1,0 +1,29 @@
+{
+  "name": "hugla-body-parser",
+  "version": "0.1.0",
+  "description": "hugla web framework's node back-end body parser module",
+  "keywords": [
+    "web",
+    "framework",
+    "hugla",
+    "body",
+    "parser"
+  ],
+  "license": "MIT",
+  "author": "noosxe <noosx.e@gmail.com> (https://noosxe.com/)",
+  "dependencies": {
+    "body-parser": "1.14.1"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "chai": "2.1.0",
+    "sinon": "1.17.1",
+    "sinon-chai": "2.8.0",
+    "jshint": "2.8.0"
+  },
+  "scripts": {
+    "lint": "jshint index.js lib/**.js",
+    "test": "mocha --reporter spec --bail"
+  }
+
+}
