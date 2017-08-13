@@ -1,12 +1,9 @@
-"use strict";
-
 const bodyParser = require('body-parser');
 
 /**
  * HuglaBodyParser - hugla web framework's node back-end body parser module
  */
-class HuglaBodyParser {
-
+export default class HuglaBodyParser {
   /**
    * Class constructor
    * @param {object} app Hugla app
@@ -35,5 +32,3 @@ class HuglaBodyParser {
     }
   }
 }
-
-module.exports = HuglaBodyParser;
