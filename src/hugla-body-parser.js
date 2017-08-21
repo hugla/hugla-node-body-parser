@@ -1,4 +1,4 @@
-const bodyParser = require('body-parser');
+import bodyParser from 'body-parser';
 
 /**
  * HuglaBodyParser - hugla web framework's node back-end body parser module

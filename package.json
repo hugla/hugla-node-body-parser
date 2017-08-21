@@ -1,6 +1,6 @@
 {
   "name": "hugla-body-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "hugla web framework's node back-end body parser module",
   "keywords": [
     "web",
@@ -12,8 +12,9 @@
   "license": "MIT",
   "repository": "hugla/hugla-node-body-parser",
   "author": "noosxe <noosx.e@gmail.com> (https://noosxe.com/)",
+  "main": "./lib/hugla-body-parser.js",
   "dependencies": {
-    "body-parser": "1.14.1"
+    "body-parser": "1.17.2"
   },
   "devDependencies": {
     "babel-cli": "6.24.x",
@@ -26,6 +27,9 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4"
+  },
+  "peerDependencies": {
+    "hugla-http": "0.2.0"
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
